@@ -14,10 +14,8 @@
     <link href="styles/sidebar.css" rel="stylesheet" />
   </head>
   <body>
-
     <!-- note: header -->
     <div class="header">
-      
       <!-- note: header -->
       <div class="left-section">
         <img class="hamburger-menu" src="icons/hamburger-menu.svg" />
@@ -44,7 +42,13 @@
         </button>
 
         <button class="notification-button">
-          <img class="notification-icon" src="icons/notifications.svg" />
+          <!-- note: put notification icon inside div to add count-->
+          <div class="notification-container">
+            <img class="notification-icon" src="icons/notifications.svg" />
+            <div class="notification-count">
+              3
+            </div>
+          </div>
         </button>
 
         <button class="my-channel-button">
