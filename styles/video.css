@@ -1,0 +1,36 @@
+/* containter for each card */
+.video-container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 50px;
+}
+/* container for video thumbnail */
+.video-thumbnail-container {
+  /* add bottom margin for video thumbnail */
+  margin-bottom: 12px;
+}
+.video-thumbnail {
+  width: 100%;
+}
+/* container for channel pic and video description */
+.video-info-grid {
+  display: grid;
+  /* 50px for image, the rest text */
+  grid-template-columns: 50px 1fr;
+}
+.profile-pic {
+  width: 80%;
+  border-radius: 50px;
+}
+.video-title {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.video-author,
+.video-stats {
+  font-size: 14px;
+  color: grey;
+}
