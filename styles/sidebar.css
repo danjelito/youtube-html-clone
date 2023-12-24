@@ -3,18 +3,19 @@
   top: 55px;
   bottom: 0;
   left: 0;
-  width: 60px;
+  background-color: white;
+  width: 76px;
 }
 .sidebar-link {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   padding-right: 8px;
   padding-left: 8px;
   width: 60px;
   height: 80px;
-  cursor: pointer;
 }
 .sidebar-link:hover {
   background-color: rgb(230, 230, 230);

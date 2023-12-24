@@ -1,11 +1,12 @@
 p {
-  font-family: "Noto Sans", Arial;
   margin-top: 0px;
   margin-bottom: 0px;
+  font-family: "Noto Sans", Arial;
 }
 body {
-    margin: 0px;
-    padding-top: 70px;
-    padding-left: 90px;
-    padding-right: 15px;
+  margin: 0px;
+  background-color: rgb(230, 230, 230);
+  padding-top: 70px;
+  padding-right: 15px;
+  padding-left: 90px;
 }
