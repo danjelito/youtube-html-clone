@@ -12,6 +12,7 @@
   border-bottom-width: 2px;
   border-bottom-color: rgb(219, 219, 219);
   border-bottom-style: solid;
+  z-index: 100;
 }
 .left-section {
   /* background-color: lightblue; */
