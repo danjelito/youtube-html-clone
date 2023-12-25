@@ -169,19 +169,27 @@
   font-size: 11px;
   font-family: Roboto, Arial;
 }
-.search-button .tooltips {
+.search-button .tooltips,
+.voice-search-button .tooltips {
   display: flex;
   position: absolute;
-  top: 40px;
+  bottom: -30px;
   justify-content: center;
   align-items: center;
+  opacity: 0;
   z-index: 100;
-  border-radius: 4px;
+  transition: opacity 0.5s;
+  border-radius: 2px;
   background-color: rgb(95, 95, 95);
   padding-top: 4px;
   padding-right: 4px;
   padding-bottom: 4px;
   padding-left: 4px;
+  pointer-events: none;
   color: white;
-  font-size: 14px;
+  font-size: 13px;
+}
+.search-button:hover .tooltips,
+.voice-search-button:hover .tooltips {
+  opacity: 1;
 }
